@@ -32,7 +32,7 @@
 		
 		
 		void pop(elemento){
-			elemento[0]=NULL;
+			elemento[lung]=NULL;
 			lung--;
 			if (pilavuota==true){
 				std::cout << "la pila é vuota" << std::endl;
